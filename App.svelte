@@ -5,7 +5,6 @@
   import { onMount } from "svelte";
 
   let persons = [];
-  let filter;
 
   onMount(async function() {
     const response = await fetch(
